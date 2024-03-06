@@ -1,0 +1,320 @@
+{
+  "code-runner.clearPreviousOutput": false,
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "typescript": "tsx"
+  },
+  "code-runner.ignoreSelection": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "typescript.format.enable": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "'JetBrains Mono', 'JetBrainsMono', 'JetBrainsMono Nerd Font'",
+  "editor.fontLigatures": true,
+  "terminal.integrated.commandsToSkipShell": [
+    "psl.stepIn",
+    "psl.stepOut",
+    "psl.stepOver",
+    "psl.sendToHostTerminal"
+  ],
+  "html.autoClosingTags": true,
+  "editor.linkedEditing": true,
+  "workbench.startupEditor": "none",
+  "editor.minimap.enabled": false,
+  "files.autoSave": "afterDelay",
+  "remote.SSH.enableRemoteCommand": true,
+  "remote.SSH.localServerDownload": "always",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.fontFamily": "'JetBrains Mono'",
+  "terminal.integrated.profiles.linux": {
+    "bash": {
+      "path": "bash",
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh"
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["--login"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    }
+  },
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.drawBoldTextInBrightColors": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.allowMnemonics": true,
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "editor.inlineSuggest.enabled": true,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnType": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "file"
+  },
+  "[html]": {
+    "editor.suggest.insertMode": "replace",
+    "editor.autoIndent": "full",
+    "editor.defaultFormatter": "vscode.html-language-features",
+    "editor.linkedEditing": true
+  },
+  "emmet.includeLanguages": {
+    "html": "html"
+  },
+  "editor.wordWrap": "on",
+  "github.copilot.enable": {
+    "*": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "docker.commands.build": "docker build --pull --rm -f \"${dockerfile}\" -t ${tag} \"${context}\"",
+  "docker.commands.run": "docker run --rm -d ${exposedPorts} ${tag}",
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    },
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+  },
+  "pylint.severity": {
+    "convention": "Information",
+    "error": "Error",
+    "fatal": "Error",
+    "refactor": "Hint",
+    "warning": "Warning"
+  },
+  "pylint.args": [
+    "--disable",
+    "I1101",
+    "--disable",
+    "C0116",
+    "--disable",
+    "C0114"
+  ],
+  "ruff.args": ["--ignore", "E501"],
+  // "ruff.importStrategy": "useBundled",
+  "tabnine.experimentalAutoImports": true,
+  "code-runner.runInTerminal": true,
+  "workbench.tree.expandMode": "doubleClick",
+  "workbench.preferredLightColorTheme": "Default Dark+",
+  "editor.guides.highlightActiveIndentation": "always",
+  "workbench.tree.renderIndentGuides": "always",
+  "thunder-client.htmlView": "Raw Html",
+  "thunder-client.saveToWorkspace": true,
+  "projectManager.git.maxDepthRecursion": 1,
+  "editor.maxTokenizationLineLength": 99999999999,
+  "editor.semanticTokenColorCustomizations": {},
+  "window.titleBarStyle": "custom",
+  "window.newWindowDimensions": "inherit",
+  "explorer.incrementalNaming": "smart",
+  "browse-lite.chromeExecutable": "/usr/bin/google-chrome-stable",
+  "livePreview.serverKeepAliveAfterEmbeddedPreviewClose": 1,
+  "debug.terminal.clearBeforeReusing": true,
+  "caddyfile.executable": "/usr/bin/caddy",
+  "livePreview.autoRefreshPreview": "On Changes to Saved Files",
+  "workbench.colorCustomizations": {
+    // "editor.background": "#111111"
+    "gitDecoration.ignoredResourceForeground": "#575757"
+    // "terminalCursor.foreground": "#e4e4e4"
+  },
+  "projectManager.hg.maxDepthRecursion": 1,
+  "code-runner.enableAppInsights": false,
+  "docker.dockerComposeDetached": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "C_Cpp.default.includePath": ["{workspace}/lib/**", "{workspace}/**"],
+  "json.schemaDownload.enable": true,
+  "json.schemas": [
+    {
+      "fileMatch": ["/vercel.json"],
+      "url": "https://openapi.vercel.sh/vercel.json"
+    },
+    {
+      // "fileMatch": [
+      // "env.json",
+      // "sample-env.json"
+      // ],
+      // "url": "https://raw.githubusercontent.com/iamrony777/shower-games/main/schema.json",
+    }
+  ],
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.venv": true,
+    "**/venv": true,
+    "node_modules": true
+  },
+  "terminal.integrated.cursorWidth": 2,
+  "python.analysis.autoImportCompletions": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportUnusedImport": "none"
+  },
+  "html.format.indentInnerHtml": true,
+  "html.trace.server": "messages",
+  "git.openRepositoryInParentFolders": "never",
+  "git.autoRepositoryDetection": false,
+  "git.showPushSuccessNotification": true,
+  "ruff.path": ["/usr/bin/ruff"],
+  "json.maxItemsComputed": 9000000,
+  "editor.largeFileOptimizations": false,
+  "window.dialogStyle": "custom",
+  "codeium.enableConfig": {
+    "*": true,
+    "github-actions-workflow": true,
+    "dockercompose": true,
+    "prisma": true,
+    "properties": true
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "code-runner.temporaryFileName": "temp_code_runner",
+  "code-runner.languageIdToFileExtensionMap": {
+    "bat": ".bat",
+    "powershell": ".ps1",
+    "typescript": ".ts"
+  },
+  "playwright.reuseBrowser": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[markdown]": {
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.wordWrap": "on",
+    "editor.quickSuggestions": {
+      "comments": "off",
+      "strings": "off",
+      "other": "off"
+    }
+  },
+  "workbench.editorLargeFileConfirmation": 100,
+
+  "codeium.enableSearch": true,
+  "remote.SSH.defaultExtensions": ["gitpod.gitpod-remote-ssh"],
+  "githubPullRequests.pullBranch": "never",
+  "terminal.integrated.env.linux": {},
+  "console-ninja.featureSet": "Pro",
+  "telemetry.telemetryLevel": "all",
+  // "settingsSync.ignoredSettings": [
+  //     "configurationSync.store"
+  // ],
+  // Causes the debug view to automatically appear when a breakpoint is hit. This
+  // setting is global and not configurable per-language.
+  "debug.openDebug": "openOnDebugBreak",
+  // By default, VS Code will only switch to the Debug Console when you start
+  // debugging the first time in a session. This setting tells VS Code to always
+  // switch to the Debug Console when starting a session, so you can see the
+  // programs output.
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "[dart]": {
+    // Automatically format code on save and during typing of certain characters
+    // (like `;` and `}`).
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    // Draw a guide line at 80 characters, where Dart's formatting will wrap code.
+    "editor.rulers": [120],
+    // Disables built-in highlighting of words that match your selection. Without
+    // this, all instances of the selected text will be highlighted, interfering
+    // with Dart's ability to highlight only exact references to the selected variable.
+    "editor.selectionHighlight": false,
+    // By default, VS Code will pre-select the most recently used item from code
+    // completion. This is usually not the most relevant item.
+    //
+    // "first" will always select top item
+    // "recentlyUsedByPrefix" will filter the recently used items based on the
+    //     text immediately preceding where completion was invoked.
+    "editor.suggestSelection": "first",
+    // Allows pressing <TAB> to complete snippets such as `for` even when the
+    // completion list is not visible.
+    "editor.tabCompletion": "onlySnippets",
+    // By default, VS Code will populate code completion with words found in the
+    // current file when a language service does not provide its own completions.
+    // This results in code completion suggesting words when editing comments and
+    // strings. This setting will prevent that.
+    "editor.wordBasedSuggestions": "off"
+  },
+  "configurationSync.store": {
+    "url": "https://gitpod.io/code-sync",
+    "stableUrl": "https://gitpod.io/code-sync",
+    "insidersUrl": "https://gitpod.io/code-sync",
+    "canSwitch": false,
+    "authenticationProviders": {
+      "gitpod": {
+        "scopes": [
+          "function:accessCodeSyncStorage",
+          "function:getLoggedInUser",
+          "resource:default"
+        ]
+      }
+    }
+  },
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    }
+  },
+  "mdb.confirmRunAll": false,
+  "editor.guides.indentation": false,
+  "python.diagnostics.sourceMapsEnabled": true,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.empty.hint": "hidden",
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "terminal.integrated.scrollback": 10000,
+  "gitpod.validate.neverPrompt": true,
+  "remote.autoForwardPortsSource": "hybrid",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "extensions.ignoreRecommendations": true,
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": true,
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.activityBar.location": "top",
+  "window.customTitleBarVisibility": "auto",
+  "window.menuBarVisibility": "classic",
+  "git.ignoreRebaseWarning": true,
+  "[dockerfile]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+  },
+  "window.zoomLevel": 0,
+  "editor.cursorSmoothCaretAnimation": "on"
+}

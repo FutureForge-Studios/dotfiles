@@ -2,4 +2,8 @@
 
 set -e
 
-export HELLO="Hi $USER"
+echo "Installing dotfiles"
+echo "Installing vscode settings"
+
+./scripts/vscode.sh
+
